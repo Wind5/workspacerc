@@ -21,3 +21,12 @@ alias wc_code='find . -name "*.h" -or -name "*.cuh" \
 source ./.mybash/git-completion.bash
 
 export PATH=$HOME/.bin:$PATH
+alias l='ls'
+alias vi='vim -p'
+alias ll='ls -l -a -h'
+alias cmt='git add .; git commit -a -m'
+alias runcf='g++ -std=c++11 a.cpp -o a.out; ./a.out'
+alias py='python'
+alias deactivate='source deactivate'
+alias jptrnb='jupyter notebook --no-browser --port=8879'
+alias search_word='find . -name "*" | xargs grep -i'
